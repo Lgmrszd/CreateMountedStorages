@@ -1,7 +1,7 @@
 package com.juh9870.moremountedstorages;
 
 import com.simibubi.create.Create;
-import com.simibubi.create.content.contraptions.components.structureMovement.Contraption;
+import com.simibubi.create.content.contraptions.Contraption;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -38,6 +38,7 @@ public abstract class ContraptionStorageRegistry extends ForgeRegistryEntry<Cont
 	public static void initCache() {
 		if (BlockEntityMappingsCache != null) return;
 		BlockEntityMappingsCache = new HashMap<>();
+		
 		ContraptionStorageRegistry other;
 		for (ContraptionStorageRegistry registry : REGISTRY.get()) {
 			for (BlockEntityType<?> BlockEntityType : registry.affectedStorages()) {

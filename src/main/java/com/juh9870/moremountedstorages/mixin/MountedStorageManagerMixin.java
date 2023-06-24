@@ -1,9 +1,9 @@
 package com.juh9870.moremountedstorages.mixin;
 
 import com.juh9870.moremountedstorages.helpers.IStorageExposer;
-import com.simibubi.create.content.contraptions.components.structureMovement.Contraption;
-import com.simibubi.create.content.contraptions.components.structureMovement.MountedStorage;
-import com.simibubi.create.content.contraptions.components.structureMovement.MountedStorageManager;
+import com.simibubi.create.content.contraptions.MountedStorageManager;
+import com.simibubi.create.content.contraptions.MountedStorage;
+import com.simibubi.create.content.contraptions.Contraption;
 import net.minecraft.core.BlockPos;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

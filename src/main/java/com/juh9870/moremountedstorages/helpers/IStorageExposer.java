@@ -1,7 +1,7 @@
 package com.juh9870.moremountedstorages.helpers;
 
-import com.simibubi.create.content.contraptions.components.structureMovement.Contraption;
-import com.simibubi.create.content.contraptions.components.structureMovement.MountedStorage;
+import com.simibubi.create.content.contraptions.Contraption;
+import com.simibubi.create.content.contraptions.MountedStorage;
 import net.minecraft.core.BlockPos;
 
 import java.util.Map;

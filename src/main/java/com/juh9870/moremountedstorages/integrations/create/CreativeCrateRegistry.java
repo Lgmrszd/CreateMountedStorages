@@ -5,8 +5,8 @@ import com.juh9870.moremountedstorages.ContraptionItemStackHandler;
 import com.juh9870.moremountedstorages.ContraptionStorageRegistry;
 import com.juh9870.moremountedstorages.Utils;
 import com.juh9870.moremountedstorages.helpers.InfiniteItemStackHandler;
-import com.simibubi.create.AllTileEntities;
-import com.simibubi.create.content.logistics.block.inventories.BottomlessItemHandler;
+import com.simibubi.create.AllBlockEntityTypes;
+// import com.simibubi.create.content.logistics.block.inventories.BottomlessItemHandler;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -26,7 +26,7 @@ public class CreativeCrateRegistry extends ContraptionStorageRegistry {
 	@Override
 	public BlockEntityType<?>[] affectedStorages() {
 		return new BlockEntityType[]{
-				AllTileEntities.CREATIVE_CRATE.get()
+				AllBlockEntityTypes.CREATIVE_CRATE.get()
 		};
 	}
 
