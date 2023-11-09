@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.common.util.Lazy;
 import net.minecraftforge.items.IItemHandler;
-import ellemes.expandedstorage.Common;
+import ellemes.expandedstorage.common.CommonMain;
 import ninjaphenix.expandedstorage.api.EsChestType;
 import ninjaphenix.expandedstorage.api.ExpandedStorageAccessors;
 
@@ -60,10 +60,10 @@ public class ExpandedStorageRegistry extends ContraptionStorageRegistry {
     @Override
     public BlockEntityType<?>[] affectedStorages() {
         return new BlockEntityType<?>[]{
-                Common.getBarrelBlockEntityType(),
-                Common.getChestBlockEntityType(),
-                Common.getOldChestBlockEntityType(),
-                Common.getMiniChestBlockEntityType(),
+                CommonMain.getBarrelBlockEntityType(),
+                CommonMain.getChestBlockEntityType(),
+                CommonMain.getOldChestBlockEntityType(),
+                CommonMain.getMiniStorageBlockEntityType(),
         };
     }
 
