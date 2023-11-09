@@ -17,7 +17,7 @@ Suppoted mods:
     - Immersive Engineering https://www.curseforge.com/minecraft/mc-mods/immersive-engineering
     - Industrial Foregoing https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing
     - PneumaticCraft: Repressurized https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized
-    - Expanded Storage: https://www.curseforge.com/minecraft/mc-mods/expanded-storage-forge
+    - Expanded Storage: https://www.curseforge.com/minecraft/mc-mods/expanded-storage
     - EnderChests: https://www.curseforge.com/minecraft/mc-mods/enderchests
     - DimStorage: https://www.curseforge.com/minecraft/mc-mods/dimstorage'''
 [[dependencies.moremountedstorages]] #optional
@@ -78,7 +78,7 @@ Suppoted mods:
 [[dependencies.moremountedstorages]]
     modId="expandedstorage"
     mandatory=false
-    versionRange="[7.4.0-beta.4,)" #keep updated
+    versionRange="[8.3.3,)" #keep updated
     ordering="AFTER"
     side="BOTH"
 [[dependencies.moremountedstorages]]
