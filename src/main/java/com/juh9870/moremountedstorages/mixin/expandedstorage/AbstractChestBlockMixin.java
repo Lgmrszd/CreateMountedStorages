@@ -1,6 +1,6 @@
 package com.juh9870.moremountedstorages.mixin.expandedstorage;
 
-import ellemes.expandedstorage.block.OpenableBlock;
+import ellemes.expandedstorage.common.block.OpenableBlock;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -14,7 +14,7 @@ public class AbstractChestBlockMixin {
     @Redirect(
             at = @At(
                 value = "INVOKE",
-                target = "Lellemes/expandedstorage/block/OpenableBlock;rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;"
+                target = "Lellemes/expandedstorage/common/block/OpenableBlock;rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;"
             ),
             method = "rotate",
             remap = false
